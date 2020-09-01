@@ -1,0 +1,24 @@
+{
+    "name": "backend-delivery",
+    "version": "1.0.0",
+    "description": "API do App Delivery",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "5.0.0",
+        "mongoose": "^5.9.18",
+        "nodemon": "^2.0.4",
+        "restify": "^8.5.1",
+        "restify-error": "^1.0.0"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "3.0.0",
+        "@types/mongoose": "^5.7.24",
+        "@types/restify": "^8.4.2",
+        "@types/restify-errors": "^4.3.3"
+    }
+}
